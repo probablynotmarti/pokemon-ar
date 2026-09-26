@@ -1,0 +1,9 @@
+# Python 3.12 (MediaPipe has no 3.13/3.14 wheels). Pinned to what's tested:
+# MediaPipe 1.x crashes on Apple Silicon Macs (DrishtiMetalHelper) and needs
+# NumPy 1.x, which opencv 5.x conflicts with — hence these exact versions.
+mediapipe==0.10.21
+opencv-contrib-python==4.11.0.86
+numpy==1.26.4
+pillow==12.3.0
+trimesh==5.1.0                      # only for optional real .glb models
+pyobjc-framework-AVFoundation==12.2.2   # names cameras (FaceTime vs iPhone)

@@ -1,0 +1,13 @@
+# Third-party art: fine for personal use, NOT redistributable (see assets/ATTRIBUTION.md)
+assets/sprites/
+assets/fx/showdown/
+assets/models/*
+!assets/models/.gitkeep
+assets/cards/
+tests/fixtures/*.jpg
+# kenney (CC0) is fine to publish: assets/fx/kenney/
+snapshots/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
